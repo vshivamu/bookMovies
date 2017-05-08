@@ -1,0 +1,33 @@
+package com.bookMovie.api.exception;
+
+
+@SuppressWarnings("serial")
+public class BookingMovieException extends RuntimeException {
+
+	public BookingMovieException() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public BookingMovieException(String message, Throwable cause, boolean enableSuppression, boolean writableStackTrace) {
+		super(message, cause, enableSuppression, writableStackTrace);
+		// TODO Auto-generated constructor stub
+	}
+
+	public BookingMovieException(String message, Throwable cause) {
+		super(message, cause);
+		// TODO Auto-generated constructor stub
+	}
+
+	public BookingMovieException(String message) {
+		super(message);
+		// TODO Auto-generated constructor stub
+	}
+
+	public BookingMovieException(Throwable cause) {
+		super(cause);
+		// TODO Auto-generated constructor stub
+	}
+	
+
+}
